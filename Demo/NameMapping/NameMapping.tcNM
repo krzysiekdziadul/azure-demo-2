@@ -197,6 +197,283 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="browser" Key="{06E9C385-2548-437E-B864-9AAF74F22B10}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{3C0A96CE-C932-438A-8DCC-DDB711098753}">
+								<Image FileName="-141853951" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{D6DD295B-5FAF-482D-89A7-9577EB3DC5E1}">
+								<Image FileName="-141853951" Left="0" Top="163" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{061526A6-6427-4762-B2CA-5A767229A94C}">
+										<Image FileName="-141853951" Left="0" Top="163" Right="1895" Bottom="8304" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{B81F22C9-F68D-40B0-84FB-E6AFFB338002}">
+										<Image FileName="256785648" Left="0" Top="163" Right="0" Bottom="163" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProducts" Key="{F51DBE0C-13AC-4D1C-BD3F-943D117771B5}">
+										<Image FileName="256785648" Left="539" Top="163" Right="719" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Products&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProducts" Key="{BA2C4EFA-E143-497A-B3B8-7B0A7A182173}">
+										<Image FileName="256785648" Left="565" Top="163" Right="692" Bottom="261" />
+										<TypeInfo Item0="{208A12DE-64D9-4DF8-BFCA-30E36A749DB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVisualtest" Key="{F1EF0E6A-551C-4002-8C2C-A47D6928381B}">
+										<Image FileName="96614583" Left="186" Top="452" Right="653" Bottom="520" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;VisualTest&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomatedVisualTesting" Key="{002942F7-05C8-4A80-9C1C-4990FF5EBD7B}">
+										<Image FileName="96614583" Left="239" Top="492" Right="654" Bottom="521" />
+										<TypeInfo Item0="{208A12DE-64D9-4DF8-BFCA-30E36A749DB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Automated Visual Testing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a[2]/span[contains(@class, &apos;item-desc&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductVisualtes" Key="{57319963-ABBF-467C-A839-885EF2D9FA6F}">
+								<Image FileName="-141853951" Left="0" Top="163" Right="1920" Bottom="1007" />
+								<TypeInfo Item0="{A00539D3-6E51-4FD5-8923-DD459F4155C7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/product/visualtest/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{12F211A9-9B33-4C34-902C-35F6AF3D1E11}">
+										<Image FileName="-1188224416" Left="0" Top="163" Right="1895" Bottom="6087" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;visualtest&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{49E0606C-DA8D-46CB-B397-92E58DF52A30}">
+										<Image FileName="-1188224416" Left="0" Top="163" Right="0" Bottom="358" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFeatures" Key="{C032E7F1-9A08-4D5A-9842-8E2981B22E95}">
+										<Image FileName="-1188224416" Left="1208" Top="261" Right="1370" Bottom="359" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Features&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/nav/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFeatures" Key="{3EDAE2E8-E9DA-41F6-8C00-71316BCE281D}">
+										<Image FileName="-1188224416" Left="1208" Top="261" Right="1370" Bottom="359" />
+										<TypeInfo Item0="{208A12DE-64D9-4DF8-BFCA-30E36A749DB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Features&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/header/div[2]//nav/ul/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/header/div[2]//nav/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductVisualtes2" Key="{C2E2703B-29E0-4135-A844-11E9D5B81B0C}">
+								<Image FileName="2033594128" Left="0" Top="163" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/product/visualtest/features/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{4F07FE40-33A4-4A4D-AFCC-F6BAD5235946}">
+										<Image FileName="2033594128" Left="0" Top="163" Right="1895" Bottom="3449" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;features&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{CE60DDC3-3B91-4516-A89B-4C421473DB35}">
+										<Image FileName="2033594128" Left="0" Top="163" Right="0" Bottom="358" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProducts" Key="{23CD1963-5B0C-4B30-9971-08905B3DA1EA}">
+										<Image FileName="2033594128" Left="860" Top="163" Right="1040" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Products&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProducts" Key="{4634CD46-050B-44CD-9E0B-ECB36802AA1F}">
+										<Image FileName="2033594128" Left="886" Top="163" Right="1013" Bottom="261" />
+										<TypeInfo Item0="{208A12DE-64D9-4DF8-BFCA-30E36A749DB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/header/div//nav/ul/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAlertsite" Key="{BBD78296-9E03-4113-BB65-3A1152525144}">
+										<Image FileName="-1323917392" Left="714" Top="361" Right="1181" Bottom="429" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;AlertSite&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAlertsite" Key="{78BCA753-577D-4045-9D1D-6CF975E9E597}">
+										<Image FileName="-1323917392" Left="766" Top="361" Right="1181" Bottom="401" />
+										<TypeInfo Item0="{208A12DE-64D9-4DF8-BFCA-30E36A749DB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;AlertSite&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a/span[contains(@class, &apos;item-name&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -219,6 +496,42 @@
 						</Child>
 						<Child Name="Standard_operators" Owner="{06CF80AD-C790-42DE-982C-FCA8B019C476}">
 							<Child Name="Equals" Owner="{6C245DFA-76E8-4098-8B5C-B4B9E2A3F56D}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{06E9C385-2548-437E-B864-9AAF74F22B10}">
+			<Child Name="BrowserWindow" Owner="{3C0A96CE-C932-438A-8DCC-DDB711098753}" />
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{D6DD295B-5FAF-482D-89A7-9577EB3DC5E1}">
+				<Child Name="form" Owner="{061526A6-6427-4762-B2CA-5A767229A94C}">
+					<Child Name="headerPLtHeader" Owner="{B81F22C9-F68D-40B0-84FB-E6AFFB338002}">
+						<Child Name="textnodeProducts" Owner="{F51DBE0C-13AC-4D1C-BD3F-943D117771B5}">
+							<Child Name="linkProducts" Owner="{BA2C4EFA-E143-497A-B3B8-7B0A7A182173}" />
+						</Child>
+						<Child Name="linkVisualtest" Owner="{F1EF0E6A-551C-4002-8C2C-A47D6928381B}">
+							<Child Name="textnodeAutomatedVisualTesting" Owner="{002942F7-05C8-4A80-9C1C-4990FF5EBD7B}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductVisualtes" Owner="{57319963-ABBF-467C-A839-885EF2D9FA6F}">
+				<Child Name="form" Owner="{12F211A9-9B33-4C34-902C-35F6AF3D1E11}">
+					<Child Name="headerPLtHeader" Owner="{49E0606C-DA8D-46CB-B397-92E58DF52A30}">
+						<Child Name="textnodeFeatures" Owner="{C032E7F1-9A08-4D5A-9842-8E2981B22E95}">
+							<Child Name="linkFeatures" Owner="{3EDAE2E8-E9DA-41F6-8C00-71316BCE281D}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductVisualtes2" Owner="{C2E2703B-29E0-4135-A844-11E9D5B81B0C}">
+				<Child Name="form" Owner="{4F07FE40-33A4-4A4D-AFCC-F6BAD5235946}">
+					<Child Name="headerPLtHeader" Owner="{CE60DDC3-3B91-4516-A89B-4C421473DB35}">
+						<Child Name="textnodeProducts" Owner="{23CD1963-5B0C-4B30-9971-08905B3DA1EA}">
+							<Child Name="linkProducts" Owner="{4634CD46-050B-44CD-9E0B-ECB36802AA1F}" />
+						</Child>
+						<Child Name="linkAlertsite" Owner="{BBD78296-9E03-4113-BB65-3A1152525144}">
+							<Child Name="textnodeAlertsite" Owner="{78BCA753-577D-4045-9D1D-6CF975E9E597}" />
 						</Child>
 					</Child>
 				</Child>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8370CD7D-2E88-4C2C-A519-7F6F0A160ECD}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45223.3431365741" objectName="Aliases.browser.pageSoftwareTestingMonitoringDev.form.headerPLtHeader.textnodeProducts.linkProducts" objectLeft="565" objectTop="163" objectRight="692" objectBottom="261" clickPointX="659" clickPointY="231" imageFileName="tcvi80314453142041.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45223.3431481481" objectName="Aliases.browser.pageSoftwareTestingMonitoringDev.form.headerPLtHeader.linkVisualtest.textnodeAutomatedVisualTesting" objectLeft="239" objectTop="492" objectRight="654" objectBottom="521" clickPointX="397" clickPointY="499" imageFileName="tcvi80315656142042.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45223.3431712963" objectName="Aliases.browser.pageSmartbearComProductVisualtes.form.headerPLtHeader.textnodeFeatures.linkFeatures" objectLeft="1208" objectTop="261" objectRight="1370" objectBottom="359" clickPointX="1280" clickPointY="325" imageFileName="tcvi80317578142043.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

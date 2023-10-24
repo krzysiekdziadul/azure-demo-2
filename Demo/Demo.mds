@@ -14,6 +14,16 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="Test3" key="{363A5F11-542A-48B1-8C8D-33BE99B6C9AB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8370CD7D-2E88-4C2C-A519-7F6F0A160ECD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Test4" key="{74A98BAA-B08B-4D6E-B7CE-8719A0844E15}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C36933B9-E780-4EE8-9BF1-2334F7899C9C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{25FDFF81-D852-4D4E-B084-2AFE45DEFF31}" />
@@ -592,7 +602,7 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
